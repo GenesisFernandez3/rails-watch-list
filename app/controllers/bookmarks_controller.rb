@@ -20,6 +20,7 @@ class BookmarksController < ApplicationController
     @bookmark.destroy
     redirect_to list_path(@bookmark.list), notice: 'Bookmark was successfully destroyed.'
   end
+  
   private
 
   def params_bookmarks

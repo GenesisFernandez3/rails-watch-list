@@ -1,3 +1,8 @@
+.collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
@@ -7,6 +12,19 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-brand img {
+  
   width: 40px;
+  border-radius: 50%;
 }
+
+
+// .nav-item a{
+//   color: black;
+//   text-decoration: none;
+// }
+
+// .nav-item a:hover{
+//   color: rgb(73, 172, 89);
+//   text-decoration: none;
+// }
